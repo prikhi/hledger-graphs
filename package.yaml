@@ -51,7 +51,11 @@ library:
     source-dirs:
         src
     dependencies:
-        []
+        - Chart
+        - data-default
+        - hledger-lib
+        - mtl
+        - text
 
 executables:
     hledger-graphs:
@@ -65,6 +69,8 @@ executables:
             - -with-rtsopts "-N -T"
         dependencies:
             - hledger-graphs
+            - data-default
+            - Chart-diagrams
 
 tests:
     hledger-graphs-test:

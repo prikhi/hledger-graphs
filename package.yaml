@@ -19,14 +19,14 @@ maintainer:
 copyright:
     2020 Pavan Rikhi
 category:
-    Web
+    Console, Finance
 extra-source-files:
     - README.md
     - CHANGELOG.md
 
 
 synopsis:
-    Short, one-line summary of project here.
+    Generate Graphs from your HLedger Journal.
 
 description: |
     Longer description of package here.

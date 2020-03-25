@@ -3,7 +3,7 @@
 [![hledger-graphs Build Status](https://travis-ci.org/prikhi/hledger-graphs.svg?branch=master)](https://travis-ci.org/prikhi/hledger-graphs)
 
 
-Describe your project here.
+Generate Graphs from your HLedger Journal.
 
 
 ## Build

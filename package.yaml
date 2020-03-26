@@ -69,8 +69,10 @@ executables:
             - -with-rtsopts "-N -T"
         dependencies:
             - hledger-graphs
-            - data-default
+            - Chart
             - Chart-diagrams
+            - diagrams-lib
+            - diagrams-svg
 
 tests:
     hledger-graphs-test:

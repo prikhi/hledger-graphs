@@ -5,6 +5,8 @@
 
 Generate Graphs from your HLedger Journal.
 
+![Pie and Bar Graphs Showing Income & Expenses](https://raw.githubusercontent.com/prikhi/hledger-graphs/master/sample.png "hledger-graphs Screenshot")
+
 
 ## Build
 

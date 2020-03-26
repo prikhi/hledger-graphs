@@ -73,6 +73,7 @@ executables:
             - Chart-diagrams
             - diagrams-lib
             - diagrams-svg
+            - hledger-lib
 
 tests:
     hledger-graphs-test:

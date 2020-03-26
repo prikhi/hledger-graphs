@@ -15,7 +15,7 @@ import           Lib
 main :: IO ()
 main = do
     journal <- getJournal
-    dEnv    <- defaultEnv vectorAlignmentFns 500 500
+    dEnv    <- defaultEnv vectorAlignmentFns 500 300
     dEnv_   <- defaultEnv vectorAlignmentFns 1000 500
     let makeDiagram  = fst . runBackendR dEnv . toRenderable . execEC
         makeDiagram_ = fst . runBackendR dEnv_ . toRenderable . execEC
@@ -28,5 +28,5 @@ main = do
         $ vcat
               [ centerX $ hcat [expensesPie, strutX 10, incomePie]
               , strutY 10
-              , centerX $ bars
+              , centerX bars
               ]

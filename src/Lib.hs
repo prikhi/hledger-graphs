@@ -103,7 +103,7 @@ balanceReportPieGraph title depth items = do
     toPieItem :: BalanceReportItem -> PieItem
     toPieItem (_, name, _, amts) =
         def
-            & (pitem_value .~ realToFrac (aquantity $ head $ amounts amts))
+            & (pitem_value .~ mixedToFrac amts)
             & (pitem_label .~ (T.unpack name ++ " " ++ showMixedAmount amts))
 
 
